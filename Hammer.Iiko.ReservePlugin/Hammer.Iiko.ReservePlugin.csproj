@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>    
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Resto.Front.Api.V8Preview5" Version="8.4.6018-alpha" />
+    <!--<PackageReference Include="System.Interactive" Version="4.0.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>-->
+    <!--<PackageReference Include="System.Reactive" Version="4.2.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>-->
+  </ItemGroup>  
+  
+</Project>
