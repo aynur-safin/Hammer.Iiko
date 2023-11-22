@@ -1,5 +1,6 @@
 ﻿using Hammer.Iiko.ReservePlugin.Dto;
 using Resto.Front.Api;
+using Resto.Front.Api.Attributes;
 using Resto.Front.Api.Data.Brd;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Runtime.Remoting;
 
 namespace Hammer.Iiko.ReservePlugin
 {
+    [PluginLicenseModuleId(21016318)]
     public class ReservePlugin : IFrontPlugin
     {
         private readonly Stack<IDisposable> subscriptions = new Stack<IDisposable>();

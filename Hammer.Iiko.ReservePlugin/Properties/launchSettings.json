@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Hammer.Iiko.ReservePlugin": {
+      "commandName": "Project"
+    },
+    "Profile Debug": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\iiko\\iikoRMS\\Front.Net\\Resto.Front.Api.Host.exe",
+      "commandLineArgs": "/a=\"d:\\VSPro\\iikoFront\\Hammer.Iiko\\Hammer.Iiko.ReservePlugin\\bin\\Debug\\net472\\Hammer.Iiko.ReservePlugin.dll\" /c=Hammer.Iiko.ReservePlugin.ReservePlugin /m=21016318 /l=\"d:\\VSPro\\iikoFront\\Hammer.Iiko\\Hammer.Iiko.ReservePlugin\\Logs\\sample-plugin.log\""
+    }
+  }
+}
